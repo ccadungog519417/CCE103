@@ -5,16 +5,7 @@ public class CadungogHotelReservation {
 		Scanner scan = new Scanner(System.in);
 		
 		int choice;
-		int [][] hotel = {
-				{0, 0, 0, 0, 0},
-				{0, 0, 0, 0, 0},
-				{0, 0, 0, 0, 0},
-				{0, 0, 0, 0, 0},
-				{0, 0, 0, 0, 0},
-				{0, 0, 0, 1, 0},
-				{0, 1, 0, 0, 1},
-		};
-		
+		int [][] hotel = new int [7][5];
 		
 		System.out.println("=== HOTEL RESERVATION ===");
 		
